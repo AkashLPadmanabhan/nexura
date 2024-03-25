@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Iceberg, Roboto_Condensed } from "next/font/google";
+
 import Logo from "@/public/Nexura.jpg";
 
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"], weight: "400" });
