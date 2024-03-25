@@ -41,7 +41,7 @@ const Home = () => {
           futuristic design, it provides an intuitive interface for
           administrators to add, update, and delete user information with ease.
           The dark-themed layout, combined with interactive elements, ensures a
-          seamless user experience. Whether it's handling user IDs, names, ages,
+          seamless user experience. Whether its handling user IDs, names, ages,
           or email addresses, Nexura offers a centralized platform for all user
           management needs, making it an essential tool for businesses and
           organizations looking to maintain a well-organized user database.
