@@ -15,10 +15,12 @@ const AddUser = () => {
       body: JSON.stringify({ name, age, email, password }),
     });
     const { ok } = await response.json();
-    setName("");
-    setAge("");
-    setEmail("");
-    setPassword("");
+    if (ok) {
+      setName("");
+      setAge("");
+      setEmail("");
+      setPassword("");
+    }
   };
 
   return (
