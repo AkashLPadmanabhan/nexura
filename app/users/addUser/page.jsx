@@ -15,7 +15,6 @@ const AddUser = () => {
       body: JSON.stringify({ name, age, email, password }),
     });
     const { ok } = await response.json();
-    ok ? alert("User created successfully") : alert("User creation failed");
     setName("");
     setAge("");
     setEmail("");
